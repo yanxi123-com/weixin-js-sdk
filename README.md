@@ -7,3 +7,10 @@ js源码: [http://res.wx.qq.com/open/js/jweixin-1.0.0.js](http://res.wx.qq.com/o
 
 官方使用说明: [http://mp.weixin.qq.com/wiki/7/aaa137b55fb2e0456bf8dd9148dd613f.html](http://mp.weixin.qq.com/wiki/7/aaa137b55fb2e0456bf8dd9148dd613f.html)
 
+安装:
+    
+    npm install weixin-js-sdk
+    
+使用:
+    
+    var wx = require('weixin-js-sdk');
