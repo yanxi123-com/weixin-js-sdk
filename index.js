@@ -108,7 +108,6 @@
     }
 
     var o, p, q, r, s, t, u, v, w, x, y, z, A, B, C;
-    console.log('====');
     if (!a.jWeixin)return o = {
         config: "preVerifyJSAPI",
         onMenuShareTimeline: "menu:share:timeline",
