@@ -289,7 +289,6 @@
                         }
                     }, a
                 }())
-            }, getLocation: function (a) {
             }, previewImage: function (a) {
                 c(p.previewImage, {current: a.current, urls: a.urls}, a)
             }, uploadImage: function (a) {
