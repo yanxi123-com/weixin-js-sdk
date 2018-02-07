@@ -5,7 +5,7 @@
 
 js源码: https://res.wx.qq.com/open/js/jweixin-1.3.2.js
 
-官方使用说明: https://mp.weixin.qq.com/wiki 微信网页开发 - iOS 网页开发适配指南
+官方使用说明: https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1421141115
 
 安装:
     
@@ -15,7 +15,7 @@ js源码: https://res.wx.qq.com/open/js/jweixin-1.3.2.js
     
     var wx = require('weixin-js-sdk');
 
-### Old version
+### Old versions
 
-[1.0.0](https://github.com/yanxi-me/weixin-js-sdk/tree/1.0.0)
-[1.2.0](https://github.com/yanxi-me/weixin-js-sdk/tree/1.2.0)
+* [1.0.0](https://github.com/yanxi-me/weixin-js-sdk/tree/1.0.0)
+* [1.2.0](https://github.com/yanxi-me/weixin-js-sdk/tree/1.2.0)
