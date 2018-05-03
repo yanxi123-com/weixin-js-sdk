@@ -387,7 +387,7 @@
           }, (e._complete = function (e) {
             if (E = !1, O.length > 0) {
               var n = O.shift();
-              wx.getLocalImgData(n)
+              N.getLocalImgData(n)
             }
           }, e))) : O.push(e)
         },
@@ -648,8 +648,8 @@
           e.preventDefault(), e.stopPropagation();
           var o = n["wx-id"];
           if (o || (o = b++, n["wx-id"] = o), R[o]) return;
-          R[o] = !0, wx.ready(function () {
-            wx.getLocalImgData({
+          R[o] = !0, N.ready(function () {
+            N.getLocalImgData({
               localId: t,
               success: function (e) {
                 n.src = e.localData
