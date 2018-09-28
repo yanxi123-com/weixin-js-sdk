@@ -1,6 +1,6 @@
 {
   "name": "weixin-js-sdk",
-  "version": "1.3.3",
+  "version": "1.4.0-test",
   "main": "index.js",
   "description": "微信官方 js-sdk CommonJS 版",
   "repository": {
