@@ -147,6 +147,7 @@
     var h = {
       config: "preVerifyJSAPI",
       onMenuShareTimeline: "menu:share:timeline",
+      onMenuShareWechat: "menu:share:wechat",
       onMenuShareAppMessage: "menu:share:appmessage",
       onMenuShareQQ: "menu:share:qq",
       onMenuShareWeibo: "menu:share:weiboApp",
@@ -286,6 +287,22 @@
         t(h.onMenuShareTimeline, {
           complete: function() {
             i("shareTimeline", {
+              title: e.title || I,
+              desc: e.title || I,
+              img_url: e.imgUrl || "",
+              link: e.link || location.href,
+              type: e.type || "link",
+              data_url: e.dataUrl || ""
+            },
+            e)
+          }
+        },
+        e)
+      },
+      onMenuShareWechat: function(e) {
+        t(h.onMenuShareWechat, {
+          complete: function() {
+            i("shareWechat", {
               title: e.title || I,
               desc: e.title || I,
               img_url: e.imgUrl || "",
