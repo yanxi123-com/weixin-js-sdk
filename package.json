@@ -1,10 +1,10 @@
 {
   "name": "weixin-js-sdk",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "main": "index.js",
-  "description": "微信官方 js-sdk CommonJS 版",
+  "description": "微信官方 js-sdk npm 安装版，支持 typescript",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yanxi-com/weixin-js-sdk.git"
+    "url": "https://github.com/yanxi-me/weixin-js-sdk.git"
   }
 }
