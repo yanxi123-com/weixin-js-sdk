@@ -3,7 +3,7 @@
 })(typeof window === "object" && window, function (r, e) {
   if (!r) {
     console.warn("can't use weixin-js-sdk in server side");
-    return {};
+    return;
   }
   var a, c, n, i, t, o, s, d, l, u, p, f, m, g, h, S, y, I, v, _, w, T;
   if (!r.jWeixin)

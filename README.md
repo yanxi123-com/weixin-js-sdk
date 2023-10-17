@@ -1,13 +1,12 @@
 微信官方 js-sdk
 ----
 
-说明: 仅将官方 js-sdk 发布到 npm，支持 CommonJS，便于 browserify, webpack 等直接使用。
+说明: 仅将官方 js-sdk 发布到 npm，支持 CommonJS，便于 browserify, webpack 等直接使用，支持 TypeScript。
 
-从 1.6.1 版本开始支持 TypeScript
 
-js源码: https://res.wx.qq.com/open/js/jweixin-1.6.0.js
+官方 JS 源码: https://res.wx.qq.com/open/js/jweixin-1.6.0.js
 
-官方使用说明: https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1421141115
+官方使用说明: https://developers.weixin.qq.com/doc/offiaccount/OA_Web_Apps/JS-SDK.html
 
 安装:
 ```shell
