@@ -1,6 +1,10 @@
 !(function (e, n) {
   module.exports = n(e);
-})(window, function (r, e) {
+})(typeof window === "object" && window, function (r, e) {
+  if (!r) {
+    console.warn("can't use weixin-js-sdk in server side");
+    return {};
+  }
   var a, c, n, i, t, o, s, d, l, u, p, f, m, g, h, S, y, I, v, _, w, T;
   if (!r.jWeixin)
     return (
@@ -722,6 +726,7 @@
       e && (r.wx = r.jWeixin = _),
       _
     );
+  else return r.jWeixin;
   function k(n, e, i) {
     r.WeixinJSBridge
       ? WeixinJSBridge.invoke(n, P(e), function (e) {
