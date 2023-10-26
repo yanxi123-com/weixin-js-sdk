@@ -24,8 +24,12 @@ import wx from 'weixin-js-sdk'
 
 ### Old versions
 
-* [1.0.0](https://github.com/yanxi-me/weixin-js-sdk/tree/1.0.0)
-* [1.2.0](https://github.com/yanxi-me/weixin-js-sdk/tree/1.2.0)
+* [1.0.0](https://github.com/yanxi123-com/weixin-js-sdk/tree/1.0.0)
+* [1.2.0](https://github.com/yanxi123-com/weixin-js-sdk/tree/1.2.0)
+
+### 个人主页
+
+* [https://yanxi123.com/](https://yanxi123.com/)
 
 ### 感谢
 
