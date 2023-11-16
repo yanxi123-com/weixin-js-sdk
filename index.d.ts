@@ -49,7 +49,7 @@ declare namespace wx {
 
   // 开放标签列表
   // https://developers.weixin.qq.com/doc/offiaccount/OA_Web_Apps/Wechat_Open_Tag.html
-  type openTag = "wx-open-launch-weapp" | "wx-open-launch-app"
+  type openTag = "wx-open-launch-weapp" | "wx-open-launch-app" | "wx-open-subscribe" | "wx-open-audio"
   type openTagList = openTag[];
 
   // 所有菜单项列表
