@@ -1,6 +1,6 @@
 {
   "name": "weixin-js-sdk",
-  "version": "1.6.2",
+  "version": "1.6.4",
   "license": "MIT",
   "main": "index.js",
   "description": "微信官方 js-sdk npm 安装版，支持 typescript",
