@@ -259,7 +259,7 @@ declare namespace wx {
    */
   function previewImage(params: IpreviewImage): void;
 
-  interface IuploadImage extends BaseParams {
+  interface IuploadResource extends BaseParams {
     localId: string; // 需要上传的图片的本地ID，由chooseImage接口获得
     isShowProgressTips: number; // 默认为1，显示进度提示
     // 返回图片的服务器端ID
@@ -268,9 +268,9 @@ declare namespace wx {
   /**
    * 上传图片接口
    */
-  function uploadImage(params: IuploadImage): void;
+  function uploadImage(params: IuploadResource): void;
 
-  interface IdownloadImage extends BaseParams {
+  interface IdownloadResource extends BaseParams {
     serverId: string; // 需要下载的图片的服务器端ID，由uploadImage接口获得
     isShowProgressTips: number; // 默认为1，显示进度提示
     // 返回图片下载后的本地ID
@@ -279,7 +279,7 @@ declare namespace wx {
   /**
    * 下载图片接口
    */
-  function downloadImage(params: IdownloadImage): void;
+  function downloadImage(params: IdownloadResource): void;
 
   interface IgetLocalImgData extends BaseParams {
     localId: string; // 图片的localID
@@ -339,12 +339,6 @@ declare namespace wx {
    * 监听语音播放完毕接口
    */
   function onVoicePlayEnd(params: IonVoicePlayEnd): void;
-
-  interface IupdownloadVoice extends BaseParams {
-    localId: string; // 需要上传的音频的本地ID，由stopRecord接口获得
-    isShowProgressTips: number; // 默认为1，显示进度提示
-    success(res: Resouce): void;
-  }
   /**
    * 上传语音接口
    * 备注：上传语音有效期3天，可用微信多媒体接口下载语音到自己的服务器
@@ -355,11 +349,11 @@ declare namespace wx {
    * 邮件主题为【申请多媒体接口调用量】，请对你的项目进行简单描述，
    * 附上产品体验链接，并对用户量和使用量进行说明。
    */
-  function uploadVoice(params: IupdownloadVoice): void;
+  function uploadVoice(params: IuploadResource): void;
   /**
    * 下载语音接口
    */
-  function downloadVoice(params: IupdownloadVoice): void;
+  function downloadVoice(params: IdownloadResource): void;
   /*=============================音频接口================================*/
   /*=============================智能接口================================*/
 
