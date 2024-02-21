@@ -579,7 +579,7 @@ declare namespace wx {
   }
   interface miniProgramMethods {
     navigateTo(params: miniProgramMethodsParams): void;
-    navigateBack(params: miniProgramMethodsParams): void;
+    navigateBack(params: BaseParams): void;
     switchTab(params: miniProgramMethodsParams): void;
     reLaunch(params: miniProgramMethodsParams): void;
     redirectTo(params: miniProgramMethodsParams): void;
